@@ -17,11 +17,7 @@
     <Folder Include="Dto\Auth\" />
     <Folder Include="Dto\Category\" />
     <Folder Include="Dto\Customer\" />
-    <Folder Include="Dto\User\" />
-    <Folder Include="Dto\ShoppingCart\" />
-    <Folder Include="Dto\Product\" />
-    <Folder Include="Dto\Pagination\" />
-    <Folder Include="Dto\Order\" />
+    <Folder Include="Dto\NewFolder\" />
   </ItemGroup>
 
 </Project>
