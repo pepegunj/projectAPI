@@ -4,10 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{DF85E24E-3B6E-4DDD-801F-3E59EE9C4601}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8FC46E28-4BF0-41D2-B4A1-3C7AB843AE3B} = {8FC46E28-4BF0-41D2-B4A1-3C7AB843AE3B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{F7E2A76B-1ADE-4F2D-9683-006B9BA17036}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1080E2EE-425B-44B2-811F-63B0F4B7DE20} = {1080E2EE-425B-44B2-811F-63B0F4B7DE20}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{8FC46E28-4BF0-41D2-B4A1-3C7AB843AE3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7E2A76B-1ADE-4F2D-9683-006B9BA17036} = {F7E2A76B-1ADE-4F2D-9683-006B9BA17036}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{1080E2EE-425B-44B2-811F-63B0F4B7DE20}"
 EndProject
