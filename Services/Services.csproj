@@ -14,13 +14,12 @@
   <ItemGroup>
     <Folder Include="Implementation\" />
   </ItemGroup>
-
-
-  <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj" />
   <ItemGroup>
     <Folder Include="Abstract\Auth\" />
     <Folder Include="Abstract\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
 
 </Project>
