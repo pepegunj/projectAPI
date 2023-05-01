@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\Abstract\" />
     <Folder Include="Repositories\Implementation\" />
   </ItemGroup>
 
