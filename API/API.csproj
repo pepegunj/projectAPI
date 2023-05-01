@@ -21,6 +21,7 @@
   <ItemGroup>
     <Folder Include="Controllers\Auth\" />
     <Folder Include="Controllers\Base\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
